@@ -15,6 +15,9 @@
 .nav-pills>li.active>a {
     background-color:#4aaaa5;
 }
+.nav-pills>li.active>a:hover {
+    background-color:lightgrey;
+}
 a {
     color:#666666;
     text-decoration:none;
@@ -25,3 +28,7 @@ a {
     padding-bottom: 10px;
     margin-bottom:10px;
 }
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color:lightgrey;
+    color:white;
+  }
