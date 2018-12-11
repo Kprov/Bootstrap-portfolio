@@ -32,3 +32,34 @@ a {
     background-color:lightgrey;
     color:white;
   }
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    margin-bottom:20px;
+    margin-left:20px;
+    border-bottom-style:solid;
+    border-bottom-color:lightgrey;
+    border-bottom-width:2px;
+    
+    
+}
+#description{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+}
+.footer {
+    clear:both;
+    background-color:lightgrey;
+    border-top:4px solid #4aaaa5;
+    height:50px;
+    width:100%;
+    text-align:center;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.foot {
+    margin-top:12px;
+}
+.bio {
+    margin-bottom:250px;
+}
