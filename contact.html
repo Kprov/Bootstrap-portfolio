@@ -28,21 +28,25 @@
             </div>
         </nav>
  <section>
-    <h2>Contact</h2>
+    <h2 class=margintop>Contact</h2>
 
-    <form action="/action_page.php">
-        Name:<br>
-        <input type="text">
-        <br>
-        Email:<br>
-        <input type="text">
-        <br>
-        Message:<br>
-        <input type="text">
-        <br><br>
-        <input type="submit" value="Submit">
-        </form> 
-    </section>
+    <form>
+            <div class="form-group">
+              <label class=formtext for="InputEmail1">Name</label>
+              <input type="email" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Name">
+              
+            </div>
+            <div class="form-group">
+              <label class=formtext for="InputEmail1">Email address</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              
+            </div>
+            <div class="form-group">
+              <label class=formtext for="exampleInputPassword1">Message</label>
+              <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     <footer class="footer">
         <p class="foot">Copright Kevin Provost</p>
     </footer>
